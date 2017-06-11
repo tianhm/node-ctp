@@ -1,0 +1,32 @@
+{
+  "name": "node-ctp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node-gyp configure build",
+    "lint": "node_modules/eslint/bin/eslint.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x530c/node-ctp.git"
+  },
+  "author": "0x530c",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x530c/node-ctp/issues"
+  },
+  "homepage": "https://github.com/0x530c/node-ctp#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4.17"
+  }
+}
